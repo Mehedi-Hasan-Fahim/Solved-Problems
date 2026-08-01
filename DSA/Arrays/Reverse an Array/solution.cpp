@@ -26,6 +26,10 @@ class Solution {
 void printArray(const vector<int>& arr) {
     cout << "[";
     for (size_t i = 0; i < arr.size(); i++) {
+      // size_t হলো একটি Unsigned Type: এর মানে এতে কোনো ঋণাত্মক (Negative) সংখ্যা রাখা যায় না। 
+      // এটি সব সময় 0 থেকে শুরু হয়ে ধনাত্মক সংখ্যা ধারণ করে।
+      // ভেক্টরের সাইজ জানতে: C++ এ vector বা array-এর আকার (size) এবং ইনডেক্স (index) কখনো মাইনাস বা ঋণাত্মক হতে পারে না। 
+      // তাই C++ এর স্ট্যান্ডার্ড লাইব্রেরিতে arr.size() সব সময় একটি size_t টাইপের মান ফেরত পাঠায়।
         cout << arr[i];
         if (i != arr.size() - 1) cout << ", ";
     }
