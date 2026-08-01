@@ -1,6 +1,6 @@
 # 🚀 Maximum Subarray (Kadane's Algorithm)
 
-**Platform:** LeetCode / GeeksforGeeks  
+**Platform:** LeetCode
 **Difficulty:** Medium  
 **Topics:** Arrays, Dynamic Programming, Divide and Conquer
 
